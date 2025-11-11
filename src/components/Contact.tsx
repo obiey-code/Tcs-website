@@ -15,11 +15,10 @@ export default function Contact() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
-          {/* Bloc d'Informations */}
+          
           <div className="animate-on-scroll">
             <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 space-y-8">
               
-              {/* Adresse */}
               <div className="flex items-start space-x-4">
                 <div className="bg-gradient-to-r from-red-600 to-green-600 p-3 rounded-lg">
                   <MapPin className="w-6 h-6" />
@@ -33,7 +32,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Téléphone */}
               <div className="flex items-start space-x-4">
                 <div className="bg-gradient-to-r from-amber-600 to-red-600 p-3 rounded-lg">
                   <Phone className="w-6 h-6" />
@@ -47,7 +45,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Email */}
               <div className="flex items-start space-x-4">
                 <div className="bg-gradient-to-r from-green-600 to-amber-600 p-3 rounded-lg">
                   <Mail className="w-6 h-6" />
@@ -61,7 +58,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Horaires d'Ouverture */}
               <div className="bg-white/10 rounded-xl p-6 shadow-xl">
                 <h3 className="text-2xl font-bold text-white mb-4">Horaires d'Ouverture</h3>
                 <div className="space-y-3">
@@ -90,14 +86,11 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Formulaire de Contact Amélioré */}
           <div className="animate-on-scroll">
             <form className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 space-y-6 shadow-2xl">
               
-              {/* Ligne 1: Nom & Prénom - Groupés comme l'image de référence */}
               <div className="grid sm:grid-cols-2 gap-6">
                 
-                {/* Nom */}
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold mb-2">Nom</label>
                   <div className="relative">
@@ -112,7 +105,6 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* Prénom */}
                 <div>
                   <label htmlFor="firstname" className="block text-sm font-semibold mb-2">Prénom</label>
                   <div className="relative">
@@ -129,10 +121,8 @@ export default function Contact() {
 
               </div>
 
-              {/* Ligne 2: Email & Téléphone */}
               <div className="grid sm:grid-cols-2 gap-6">
                 
-                {/* Email */}
                 <div>
                   <label htmlFor="email" className="block text-sm font-semibold mb-2">Email</label>
                   <div className="relative">
@@ -147,7 +137,6 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* Téléphone */}
                 <div>
                   <label htmlFor="phone" className="block text-sm font-semibold mb-2">Téléphone</label>
                   <div className="relative">
@@ -162,7 +151,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Ligne 3: Objet (Select) */}
               <div>
                 <label htmlFor="subject" className="block text-sm font-semibold mb-2">Objet de la demande</label>
                 <div className="relative">
@@ -178,13 +166,11 @@ export default function Contact() {
                       <option className="bg-gray-800 text-white">Partenariat / Affaires</option>
                       <option className="bg-gray-800 text-white">Autre</option>
                     </select>
-                    {/* Flèche de sélection customisée pour remplacer l'apparence native */}
                     <svg className="absolute right-4 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
                 </div>
               </div>
 
 
-              {/* Ligne 4: Message */}
               <div>
                 <label htmlFor="message" className="block text-sm font-semibold mb-2">Message</label>
                 <div className="relative">
@@ -199,7 +185,6 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* Bouton d'envoi */}
               <button
                 type="submit"
                 className="w-full bg-gradient-to-r from-red-600 to-amber-500 text-white py-4 rounded-xl font-bold hover:shadow-2xl hover:shadow-red-500/50 transform hover:scale-[1.02] transition-all duration-300 flex items-center justify-center space-x-3"
