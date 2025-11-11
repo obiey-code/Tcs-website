@@ -26,8 +26,8 @@ export default function Gallery() {
       title: 'Voies de Circulation',
     },
     {
-      url: 'https://images.pexels.com/photos/2101194/pexels-photo-2101194.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Centre de Contrôle',
+      url: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Travail au Data Center',
     },
   ];
 
