@@ -2,10 +2,10 @@ import { FileText, ArrowRight } from 'lucide-react';
 
 const LOCAL_IMAGE_PATHS = {
     CAMERA: "/equipements/DASHCA_1-removebg-preview.png",
-    PAYMENT_TERMINAL: "public/equipements/Compte_bancaire___Quelle_assurance__pour_quel_incident__-removebg-preview.png",
+    PAYMENT_TERMINAL: "/equipements/Compte_bancaire___Quelle_assurance__pour_quel_incident__-removebg-preview.png",
     AVC_SYSTEM: "/equipements/WhatsApp_Image_2025-11-08_à_13.18.57_848a4810_-_Copie-removebg-preview.png",
-    CENTRAL_UNIT: "public/equipements/__Pink_Salt_Weight_Loss_Recipe__The_Natural_Detox_Tonic_Women_Are_Raving_About-removebg-preview.png",
-    AVC_GENERATED: "public/equipements/systeme_classification_vehicule_3d.png" 
+    CENTRAL_UNIT: "/equipements/__Pink_Salt_Weight_Loss_Recipe__The_Natural_Detox_Tonic_Women_Are_Raving_About-removebg-preview.png",
+    AVC_GENERATED: "/equipements/systeme_classification_vehicule_3d.png" 
 };
 
 const equipmentList = [
